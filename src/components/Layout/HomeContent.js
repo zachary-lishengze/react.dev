@@ -133,19 +133,19 @@ export function HomeContent() {
             )}
           />
           <h1 className="uwu-hidden text-5xl font-display lg:text-6xl self-center flex font-semibold leading-snug text-primary dark:text-primary-dark">
-            React
+            my app
           </h1>
           <p className="text-4xl font-display max-w-lg md:max-w-full py-1 text-center text-secondary dark:text-primary-dark leading-snug self-center">
-            The library for web and native user interfaces
+            sra-recuritment-lab
           </p>
           <div className="mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row">
             <ButtonLink
-              href={'/learn'}
+              href={'https://wku.edu.cn'}
               type="primary"
               size="lg"
               className="w-full sm:w-auto justify-center"
               label="Learn React">
-              Learn React
+              href can direct user to that address
             </ButtonLink>
             <ButtonLink
               href={'/reference/react'}
@@ -153,20 +153,20 @@ export function HomeContent() {
               size="lg"
               className="w-full sm:w-auto justify-center"
               label="API Reference">
-              API Reference
+              same
             </ButtonLink>
           </div>
         </div>
 
         <Section background="left-card">
           <Center>
-            <Header>Create user interfaces from components</Header>
+            <Header>This is header</Header>
             <Para>
               React lets you build user interfaces out of individual pieces
               called components. Create your own React components like{' '}
-              <Code>Thumbnail</Code>, <Code>LikeButton</Code>, and{' '}
-              <Code>Video</Code>. Then combine them into entire screens, pages,
-              and apps.
+              <Code>the code tag is for highlight</Code>,{' '}
+              <Code>LikeButton</Code>, and <Code>Video</Code>. Then combine them
+              into entire screens, pages, and apps.
             </Para>
           </Center>
           <FullBleed>
